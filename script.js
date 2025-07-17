@@ -16,8 +16,8 @@
 
 
 // const(not change value)
-const namee="muskan"
-const last="mahi"
+// const namee="muskan"
+// const last="mahi"
 
 
 // arthimetic operators 
@@ -60,11 +60,89 @@ const last="mahi"
 // console.log(c)
 
 // Unary Operators
+// (a++=post decement,++a=pre decrement )
+// let a=15
+// let b=20
+// let c = ++a
+// console.log(c)
 
 // let a=15
 // let b=20
-// let c = a++ + ++b
+// let c = b++
 // console.log(c)
+
+// let a=15
+// let b=20
+// let c = b++ + ++a
+// console.log(c)
+// let a=15
+// let b=20
+// let c = b-- + --a
+// console.log(c)
+
+
+
+
+// let a=15;
+// let b=20;
+// let c= a++ + ++b + ++a + b++ + a++ + ++b;
+
+// console.log(c);
+// console.log(a);
+// console.log(b);
+
+
+// let b= 10;
+
+// let a = b++ <= ++b ? b-- == b ? b++ + ++b : --b -b : b++ +b;
+
+// console.log(a)
+// console.log(b)
+
+// Icrement (decrement) 
+
+// let p = 4;
+// let q = ++p + p++ + --p;
+// console.log("q =", q);
+// console.log("p =", p);
+
+
+// let a = 2, b = 3;
+// let result = a++ == 2 ? b++ : --b;
+// console.log("result =", result);
+// console.log("a =", a, "b =", b);
+
+
+
+
+// let a = 5;
+
+// let b = 10;
+
+// let c = a++ > --b ? a-- - b < a++ ? b++ + a : --b + a++: ++a + b-- - --b;
+
+// console.log(c);
+// console.log(a);
+// console.log(b);
+
+// let a=40;
+// let b="40"
+
+// console.log(a!=b);
+// console.log(a!==b);
+// console.log(a==b);
+// console.log(a===b);
+
+
+// console.log("" && null && 15 && 0 && 5);
+
+// console.log("Hello" || "World" || 0 || false || null || undefined|| "");
+
+// console.log( false || 0 || "" || null || undefined || "Hello" || "World" || 5);
+
+// let e = null ?? false ?? 10 ?? "Hello" ?? false;
+
+// console.log(e);
 
 
 // assignment opertor
@@ -72,6 +150,7 @@ const last="mahi"
 // let b=20
 // let c=a=b
 // console.log(c)
+
 
 
 // add and asign
@@ -162,6 +241,27 @@ const last="mahi"
 // console.log(c)
 
 
+
+
+// ........controlstatments..........
+
+// .....if statement
+// let age = 20
+// if(age>=18){
+//   console.log("your can vote")
+// }
+
+// if else
+//   let age= 16;
+// if(age >=18){
+//   console.log("you can vote")
+// }else{
+//   console.log("you are not vote")
+// }
+
+
+// if elseif else
+  
 
 
 

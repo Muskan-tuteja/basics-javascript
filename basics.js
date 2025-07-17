@@ -26,6 +26,6 @@ function abcd(){
 
 // temporal dead zone(utna area jitna main js lo pata to hai ki variable exist karta hai par wo apko value nahi de sakta  )
 
-console.log(a)
+// console.log(a)
 
-let a = 20
+// let a = 20
