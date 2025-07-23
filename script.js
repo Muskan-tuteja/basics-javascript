@@ -267,8 +267,6 @@
 //   i++;
 // }
 
-
-
 // ...............do while
 // let i=12;
 // do{
@@ -276,7 +274,6 @@
 // i++;
 // }
 // while(i<2)
-
 
 // ...................break
 
@@ -288,7 +285,7 @@
 // }
 
 // ..................continue
-// agle no par jaye
+// agle no par jaye(50 ko remove kar de ga )
 // for(let i =1; i<201; i++){
 //   if(i === 50){
 //     continue;
@@ -296,4 +293,181 @@
 //   console.log(i)
 // }
 
+// let i =10;
+// while(i>0){
+//   console.log(i)
+//   i--;
 
+// }
+
+// for(let i=1;i<21;i++){
+//   if(i%2 ===0){
+//  console.log("even number" +i)
+//   }
+
+// }
+
+// let a=10;
+// let b=20;
+// let c =a+b
+
+// console.log(`Sum of ${a} and ${b} =${c}`)
+
+// let i = 1;
+// while (i < 40) {
+//   if (i % 3 === 0) {
+//     console.log(`odd number = ${i}`);
+
+//   }
+//    i++;
+// }
+
+// multipliation
+// for(let i =2; i<11; i++){
+//   console.log(`2 * ${i} = ${2*i}`);
+// }
+
+// let sum = 0
+// for(let i=1; i<101; i++){
+//   sum = sum + 1
+
+// }
+//  console.log(`sum = ${sum}`)
+// console.log(sum)
+
+// for (let i =1; i<50; i++){
+//   if(i%3 === 0){
+//     console.log(`3 %  = ${i}`)
+//   }
+// }
+
+// let val = prompt("given a number");
+
+// for(let i = 1; i<=val; i++){
+//   if(i%2 ===0){
+//     console.log( `${i} is even`)
+//   }else{
+//     console.log(`${i} is odd`)
+//   }
+// }
+
+// for (let i = 1; i < 101; i++) {
+//   if (i % 3 === 0 && i%5 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// for (let i = 1; i < 101; i++) {
+//   if (i % 7 === 0) {
+//     break;
+    
+//   }
+//   console.log(i);
+// }
+
+
+// for(let i=1; i<21; i++){
+//   if(i%3 ===0)continue;
+//   console.log(i)
+// }
+
+// let count = 0
+// for(let i =1; i<101; i++){
+//   if(i%2 === 1){
+//     count++
+//     console.log(i)
+    
+
+//   }
+//   if(count===5)break
+// }
+
+
+// for loop
+// for(let i=1; i<=6; i++){
+//   if(i%2===0){
+//     console.log(i)
+
+//   }
+ 
+
+// }
+
+
+
+// for(let i=1; i<5;i++){
+//   console.log(i)
+// }
+
+// for(let i=10; i>=1; i--){
+//   console.log(i)
+// }
+
+
+// let count =0
+// for(let i=1; i<21; i++){
+  
+//   if(i%2===0){
+//     console.log(i)
+//     count++
+//   }
+// }
+// console.log("total even" + count)
+
+
+
+// for(let i =5; i<25; i+=5){
+// console.log(i)
+// }
+// count=0
+// for(let i=2; i<21; i+=3){
+//   console.log(i)
+//   count++
+// }
+// console.log("total"+count)
+
+// count=0
+// for(let i=100; i>=80; i-=5){
+//   console.log(i)
+//   count++
+// }
+// console.log("tatal" + count)
+
+
+// count=0
+// for(let i=1; i<=50; i++){
+//   if(i%3 === 0 && i%5===0){
+//     console.log(i)
+//     count++
+//   }
+ 
+// }
+//  console.log("total" + count)
+
+// for(let i=10; i>=1; i--){
+//   if(i%2===0){
+//     console.log(i)
+//   }
+// }
+
+
+
+// for(let i=1; i<=100; i++){
+//   if(i%7===0 || i%10===0){
+//     console.log(i)
+//   }
+// }
+count=0
+for(let i=1; i<=50; i++){
+  if(i%3===0 && i%5===0){
+    console.log("Fizzbuzz")
+    count++
+  }else if(i%3===0){
+    console.log("Fizz")
+  }else if(i%5===0){
+    console.log("buzz")
+    
+  }
+  
+}
+console.log("total"+count)
