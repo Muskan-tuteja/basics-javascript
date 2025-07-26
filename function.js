@@ -240,3 +240,278 @@
 
 // practices question answer
 
+// greet()
+
+// function greet(){
+//   console.log("hello")
+// }
+// console.log("helo")
+
+
+// let multiply = (a,b) =>{
+//   return a*b;
+// }
+
+
+// function welcome(name){
+//   console.log(name)
+// }
+// welcome("muskan")
+
+
+// function demo(a,b,c){}
+// demo(1,2)
+
+
+// function sayHi(name = "muskan"){
+//   console.log("hi",name)
+// }
+// sayHi()
+
+
+// function absv(a,b,c,...val){
+//   console.log(val)
+// }
+// absv(1,2,3,4,5,6)
+
+
+
+// function number(...val){
+//   let total = 0
+//   val.forEach(function(score){
+//     total = total + score
+//   })
+//   return total
+// }
+// console.log(number(10,20,34,56))
+
+
+// function checkAge(age){
+//   if(age<18) return "to young"
+//   return "allowed"
+// }
+// console.log(checkAge(12))
+
+
+
+// function f(){
+//   return;
+// }
+// console.log(f())
+
+
+// Pass a function into another function and execute if inside
+
+// function abcd(val){
+//   val()
+// }
+// abcd(function(){
+//   console.log("hello")
+// })
+
+
+// what is heigher order function
+
+// function num(val){
+//   val()
+// }
+// num(function(){
+
+// })
+
+
+// convert the above function into a pure function
+
+// let total = 0
+//  function addTotal(num){
+//   let newTotal = total
+//   newTotal +=total
+//  }
+
+
+// what is a closure? when is it created1?
+
+// function number(){
+//   let val = 0
+//   return function(){
+//     console.log(val)
+//   }
+// }
+
+
+
+// function outer(){
+//   let count = 0
+//   return function (){
+//     count ++
+//     console.log()
+//   }
+// }
+// const counter = outer()
+// counter()
+// counter()
+
+
+
+// convert this normal function into an iife
+// (function init(){
+//   console.log("helo initialixes")
+// })()
+
+
+// what is the use of iife name one real world use case
+// (function(){
+//   let score = 0
+// })()
+
+
+// not hosting
+
+// greet()
+// var greet = function(){
+//   console.log("hello")
+// }
+
+// yes hosting
+
+//  greet()
+// function greet(){
+//   console.log("hello")
+// }
+
+
+// write a BMI Calculator
+
+// function bmi(weight, height){
+//   return weight / (height * height)
+// }
+// console.log(bmi(40,4.5).toFixed(2))
+
+
+// create a reusable discount calculator (hof)
+
+// function discountCalculator(discount){
+//   return function (price){
+//     return price - price * (discount / 100)
+//   }
+// }
+// let ten =  discountCalculator(10)
+// let twenty = discountCalculator(20)
+
+// console.log(ten(1200))
+// console.log(twenty(1200))
+
+
+// counter clouser
+// function counter(){
+//   let count= -1
+//   return function (){
+//     count++
+//     return count
+//   }
+// }
+// let c = counter()
+// console.log(c())
+// console.log(c())
+// console.log(c())
+// console.log(c())
+
+// let d = counter()
+// console.log(d())
+// console.log(c())
+
+
+
+// create a pure function to transform a value
+
+// function double(val){
+// return val*3
+// }
+// console.log(double(10))
+
+
+
+// use iife to isolate variables
+
+// (function (){
+//   const password = "secret password"
+//   console.log(1245)
+// })()
+
+// ,,,,,,,,,,,,,,,,basics function
+// function hello(){
+//   console.log("hello muskan")
+// }
+// hello()
+
+// function sum(){
+//   console.log(20+30)
+// }
+// sum()
+
+// function Bolean(){
+//   console.log(true&&false)
+// }
+// Bolean()
+
+// function or(){
+//   console.log(true||false)
+// }
+// or()
+
+
+
+// parameter(name) argument(you pass)
+// function greet(name) {
+//   console.log("hello" + name)
+// }
+// greet("muskan muje maro")
+
+
+// function num(val){
+//   console.log(20 + val)
+// }
+// num(30+40+79)
+
+// function num1(name){
+//   console.log(true + name)
+// }
+// num1(false)
+
+
+
+// function add(a,b){
+// return a+b
+// return c+d
+
+// }
+// let total = add(10,5)
+// let sum = add(10,50)
+// console.log(total)
+// console.log(sum)
+
+
+// function multiply(a,b){
+//   return a *b
+
+// }
+// function greet(name) {
+//   console.log("Hello " + name);
+// }
+
+// console.log(greet("Muskan"));
+
+
+// function num(a,b){
+//   return a*b
+// }
+// console.log(num(12,23))
+
+
+
+
+
+
+
+
+
