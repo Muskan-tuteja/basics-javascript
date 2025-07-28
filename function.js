@@ -33,8 +33,6 @@
 //   console.log(x)
 // }
 
-
-
 // Deafult parmeters
 // function sum(a=10,b=0){
 //   console.log(a+b)
@@ -65,14 +63,11 @@
 // }
 // sum(10,20,3)
 
-
 // spread with Arrays
 // let arr1 = [1,2,3]
 // let arr2 = [...arr1,45,56]
 
 // console.log(arr2)
-
-
 
 // return
 
@@ -80,13 +75,11 @@
 //   return value;
 // }
 
-
 // function name(){
 //   return 12,13
 // }
 // let val = name();
 // console.log(val)
-
 
 // function var2(v){
 //   return 21 +v
@@ -94,13 +87,11 @@
 // let val = var2(56)
 // console.log(val)
 
-
 // function add(a,b){
 //   return a*b
 // }
 // let result = add(4,5)
 // console.log(result)
-
 
 // function isEven(num){
 //   if(num % 2 === 0 ){
@@ -116,14 +107,11 @@
 // }
 // console.log(sum(3,2))
 
-
 // function sayHello(){
 //   return "hii"
 //   console.log("hello")
 // }
 // console.log(sayHello())
-
-
 
 // function prime(n){
 //   if(n ===1) return false
@@ -132,7 +120,6 @@
 //   }
 //   return true
 // }
-
 
 // first class function
 
@@ -143,7 +130,6 @@
 //   console.log("hello")
 // })
 
-
 // pure and improve function
 // let a = 10
 // function add(a,b){
@@ -153,8 +139,7 @@
 //   a++
 // }
 
-
-// closure 
+// closure
 // function outer(){
 //   let name = "muskan"
 
@@ -172,8 +157,6 @@
 //     console.log(a)
 //   }
 // }
-
-
 
 // lexical scope
 
@@ -204,8 +187,6 @@
 // const fn = outer
 // fn()
 
-
-
 //  IIFE – Immediately Invoked Function Expression
 
 // (function() {
@@ -216,16 +197,13 @@
 //   console.log("basicsss js")
 // })();
 
-
 // hositing declaration
 
 // name();
 
-
 // function name(){
 //   console.log("muskan mahi")
 // }
-
 
 // hosting expression (hosting karte vakta error dega )
 
@@ -234,9 +212,6 @@
 // let name = function(){
 //   console.log("muskan")
 // }
-
-
-
 
 // practices question answer
 
@@ -247,34 +222,27 @@
 // }
 // console.log("helo")
 
-
 // let multiply = (a,b) =>{
 //   return a*b;
 // }
-
 
 // function welcome(name){
 //   console.log(name)
 // }
 // welcome("muskan")
 
-
 // function demo(a,b,c){}
 // demo(1,2)
-
 
 // function sayHi(name = "muskan"){
 //   console.log("hi",name)
 // }
 // sayHi()
 
-
 // function absv(a,b,c,...val){
 //   console.log(val)
 // }
 // absv(1,2,3,4,5,6)
-
-
 
 // function number(...val){
 //   let total = 0
@@ -285,20 +253,16 @@
 // }
 // console.log(number(10,20,34,56))
 
-
 // function checkAge(age){
 //   if(age<18) return "to young"
 //   return "allowed"
 // }
 // console.log(checkAge(12))
 
-
-
 // function f(){
 //   return;
 // }
 // console.log(f())
-
 
 // Pass a function into another function and execute if inside
 
@@ -309,7 +273,6 @@
 //   console.log("hello")
 // })
 
-
 // what is heigher order function
 
 // function num(val){
@@ -319,7 +282,6 @@
 
 // })
 
-
 // convert the above function into a pure function
 
 // let total = 0
@@ -327,7 +289,6 @@
 //   let newTotal = total
 //   newTotal +=total
 //  }
-
 
 // what is a closure? when is it created1?
 
@@ -337,8 +298,6 @@
 //     console.log(val)
 //   }
 // }
-
-
 
 // function outer(){
 //   let count = 0
@@ -351,19 +310,15 @@
 // counter()
 // counter()
 
-
-
 // convert this normal function into an iife
 // (function init(){
 //   console.log("helo initialixes")
 // })()
 
-
 // what is the use of iife name one real world use case
 // (function(){
 //   let score = 0
 // })()
-
 
 // not hosting
 
@@ -379,14 +334,12 @@
 //   console.log("hello")
 // }
 
-
 // write a BMI Calculator
 
 // function bmi(weight, height){
 //   return weight / (height * height)
 // }
 // console.log(bmi(40,4.5).toFixed(2))
-
 
 // create a reusable discount calculator (hof)
 
@@ -400,7 +353,6 @@
 
 // console.log(ten(1200))
 // console.log(twenty(1200))
-
 
 // counter clouser
 // function counter(){
@@ -420,16 +372,12 @@
 // console.log(d())
 // console.log(c())
 
-
-
 // create a pure function to transform a value
 
 // function double(val){
 // return val*3
 // }
 // console.log(double(10))
-
-
 
 // use iife to isolate variables
 
@@ -459,14 +407,11 @@
 // }
 // or()
 
-
-
 // parameter(name) argument(you pass)
 // function greet(name) {
 //   console.log("hello" + name)
 // }
 // greet("muskan muje maro")
-
 
 // function num(val){
 //   console.log(20 + val)
@@ -478,8 +423,6 @@
 // }
 // num1(false)
 
-
-
 // function add(a,b){
 // return a+b
 // return c+d
@@ -489,7 +432,6 @@
 // let sum = add(10,50)
 // console.log(total)
 // console.log(sum)
-
 
 // function multiply(a,b){
 //   return a *b
@@ -501,17 +443,56 @@
 
 // console.log(greet("Muskan"));
 
-
 // function num(a,b){
 //   return a*b
 // }
 // console.log(num(12,23))
 
+// function num(val) {
+//   console.log(20 + val);
+// }
+// num(30 + 40 + 79);
+
+// function num(val) {
+//   let num1 = 20;
+//   console.log(num1);
+// }
+
+// function fn(a, b) {
+//   return a + b;
+// }
+// console.log(fn(100, 20));
 
 
+// function grret(name){
+//   console.log("hello"+name)
+// }
+// grret("muskan")
 
 
+function multiply(a,b){
+  return a*b
+}
+console.log(multiply(10,20))
 
+
+function isAdult(age){
+  return age>=18
+}
+console.log(isAdult(20))
+console.log(isAdult(10))
+
+
+function getFirstChar(Name){
+  return Name.charAt(0)
+}
+console.log(getFirstChar("Muskna"))
+
+
+function findLargest(a,b,c){
+  return Math.max(a,b,c)
+}
+console.log(findLargest(10,20,50))
 
 
 
