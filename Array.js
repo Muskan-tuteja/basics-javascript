@@ -326,3 +326,93 @@
 // console.log(result);
 
 
+//  some 
+
+// let arr = [10,20,30,40];
+// let som=arr.some(function(val){
+//   return val >90;
+// })
+// console.log(som)
+
+
+// let num = [1,3,7,10,15]
+
+// let hasEven = num.some(function(val){
+//   return num %2 ===0
+// })
+// console.log(hasEven)
+
+// let cart = [
+//   {name : "muskan",price:30},
+//   {name : "musn",price:30},
+//   {name : "mus",price:30}
+// ]
+// let expensiveItem = cart.some(item => item.price >100)
+// console.log(expensiveItem)
+
+
+// every
+
+// let arr = [60,20,30,40]
+
+// let eve = arr.every(function(val){
+//   return val >15
+// })
+// console.log(eve)
+// let arr = [10,20,30,40]
+
+// let eve = arr.every(function(val){
+//   return val >15
+// })
+// console.log(eve)
+
+// let cart = [
+//   { name: "Shirt", price: 1499 },
+//   { name: "Shoes", price: 899 },
+//   { name: "Cap", price: 299 }
+// ];
+// let count = cart.every(function(erw){
+//   return erw.price<1000
+// })
+// console.log(count)
+
+// fill
+
+// let arr = [1,2,3,4,5,6]
+// arr.fill(0)
+// console.log(arr)
+
+// let board = new Array(3).fill(null)
+// console.log(board)
+
+
+// spread
+
+// let arr = [1,2,3,4,5,6,7]
+// let arr2 = [...arr]
+// console.log(arr2)
+
+
+//....................... Practice question arry 
+
+// let fruit = [ "apple", "bnana", "gurve"]
+// let furits=fruit[1]
+// console.log(furits)
+
+
+// let furits = ["apple", "Banan",]
+// furits.push("Mangi")
+// furits.unshift("origon")
+// console.log(furits)
+
+// let num =[1,2,3,7]
+// num.pop()
+// num.push(9)
+// console.log(num)
+
+
+
+
+
+
+
