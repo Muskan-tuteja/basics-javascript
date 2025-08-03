@@ -412,7 +412,203 @@
 
 
 
+// let names =[ "aplllw","bnana",,"kiwwi"]
+// let remove= names.pop()
+// console.log(remove)
+// console.log(names)
+
+
+// let colors = ["green","yelllow","blue"];
+// colors.splice(1,0,"red","white")
+
+// console.log(colors)
+
+// let items = [1,2,3,4,5,6]
+// let newarr = items.slice(2,4)
+// console.log(newarr)
+
+// let names = ["muskan","asha","musu","bahi"];
+//  names.sort().reverse()
+//  console.log(names)
+
+
+// let arr = [1,2,34,67]
+// let arrr= arr.map(function(val){
+//   return val*val
+// })
+// console.log(arrr)
+
+
+// let arr = [2,3,4,5,12,34]
+// let arrs = arr.filter(function(val){
+//   return val>10
+// })
+// console.log(arrs)
+
+// let arr = [12,2,4,5,6]
+// let sum = arr.reduce(function(aru,val){
+//   return aru+val
+// },0)
+// console.log(sum)
+
+// let arr = [10,2,3,20 ]
+// let sum = arr.find(function(val){
+//   return val<10
+// })
+// console.log(sum)
+
+// let mark = [20,30,35,67]
+// let marks = mark.some(function(val){
+//   return val<35
+// })
+// console.log(marks)
+
+// let marks = [1,2,3,4,12]
+// let markss = marks.some(function(val){
+//   return val>10
+// })
+// console.log(markss)
 
 
 
+// let even = [ 2,5,4,6,8,10]
+// let evenn = even.every(function(val){
+//   return val % 2===0
+// })
+// console.log(evenn)
 
+// let a = [1,2]
+// let b = [3,4]
+
+
+// let c = [...a,...b]
+// console.log(c)
+
+
+// let count = ["us","uk","amcrican"]
+
+// let counst = ["india",...count]
+// console.log(counst)
+
+// let arr= [1,2,30];
+// let arr2 = [...arr]
+// console.log(arr2)
+// console.log(arr)
+
+// let arr = ["muskan","mahi"]
+// let arrs = arr.sort()
+// console.log(arrs)
+
+// let num = [3,5,7,2,8]
+// let sum = num.reduce(function(val){
+//   return val+val
+// })
+// console.log(sum)
+
+// let arr = [4, 9, 1, 17, 3];
+// let max =Math.max(...arr)
+
+// console.log(max)
+
+// let arr = [10, 20, 30, 40, 50];
+// let arr1 = arr.reverse()
+
+// console.log(arr1)
+
+// let arr = [11, 24, 7, 8, 15, 30];
+// let arr1 = arr.filter(function(val){
+//   return val % 2===0
+// })
+// console.log(arr1)
+
+// let arr = [1, 2, 2, 3, 3, 4];
+// let uniqueArr = [...new Set(arr)];
+// console.log(uniqueArr); 
+
+// let arr = [12, 7, 9, 24, 18, 3, 5, 22];
+// let arr1 = arr.filter(function(val){
+// return val % 2 ===0 ,val %2 !== 0
+// })
+// console.log(arr1)
+
+
+// let arr = [45, 22, 89, 75, 89, 30];
+// let uniqueArr = [...new Set(arr)];
+// uniqueArr.sort((a, b) => b - a);
+// let secondLargest = uniqueArr[1];
+// console.log("Second Largest:", secondLargest);
+
+
+// let arr = [45, 12, 78, 34, 22];
+
+// let arr1 = arr.sort(function(a,b){
+//   return a-b
+// })
+// console.log(arr1)
+
+// let arr = [23, 7, 45, 2, 89, 15];
+// let arr1 = Math.min(...arr)
+
+// console.log(arr1)
+
+// let arr = [11, 24, 35, 40, 55, 66, 73];
+// let arr1 = arr.filter(function(val){
+//   return val%2 ===0
+// })
+// console.log(arr1)
+
+// let arr = [-5, 12, -3, 8, -9, 0, 7];
+// let positiveCount = arr.filter(val => val > 0).length;
+// let negativeCount = arr.filter(val => val < 0).length;
+// console.log("Positive:", positiveCount);  
+// console.log("Negative:", negativeCount);
+
+
+// let arr = [10, -3, 7, -8, -2, 5, -1];
+// let negativeCount = arr.filter(function(val){
+//   return val <0
+// })
+// let sum = negativeCount.reduce(function(acc,val){
+//   return acc +val
+// })
+
+// console.log("sum negativeCount:" ,sum)
+
+// let num = 5473;
+// let sum2=num.toString().length
+// console.log(sum2)
+
+// let arr = [12,23,45]
+
+// arr.forEach(function(val){
+//   console.log(val.toString())
+// })
+// console.log(arr)
+// let arr = [12,23,45]
+
+// let arr2=arr.map(function(val){
+//   console.log(val.toString())
+// })
+// console.log(arr2)
+
+// let arr = [12,23,45]
+
+// let arr2=arr.map(function(val){
+//   return(val.toString())
+// })
+// console.log(arr2,"muskan")
+
+// let arr = [23,24,57]
+
+// let name = arr.map(function(val){
+//   return val.toString() + "muskan"
+// })
+// console.log(name)
+
+
+let arr =[10,20,30,,40,,67]
+
+let arr2 = arr.indexOf(function(val){
+  return val <100
+})
+console.log(arr2)
