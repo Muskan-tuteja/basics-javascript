@@ -39,25 +39,37 @@
 .contanier button:hover {
   background-color: antiquewhite;
 }
+#listItemid {
+  list-style-type: decimal;
+
+  list-style-position: outside;
+}
+
 .listItem {
-  margin-left: 20px;
-  margin-right: 33px;
+  margin: 20px 33px 10px 40px;
+
   padding-left: 40px;
-  margin-top: 20px;
+
   height: 30px;
   display: flex;
   justify-content: space-between;
-  background: blue;
-  color: white;
- 
+  background: rgb(139, 139, 188);
+  color: rgb(231, 227, 227);
 }
-.listItem li {
- 
- 
-  list-style: none;
+.listItem::marker {
+  content: counter(list-item) ". ";
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.listItem span {
+  margin-right: 50px;
 }
 .listItem button {
   font-weight: bold;
   border: none;
   width: 100px;
+}
+.listItem button:hover {
+  background: rgb(230, 230, 236);
 }
