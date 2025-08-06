@@ -19,3 +19,28 @@
 // h1.innerText= "hello0hidden=true"
 
 // console.dir(h1)
+
+
+// let a = document.getElementById("mylink")
+// a.setAttribute("href", "https://google.com")
+
+// let img = document.querySelector("img")
+// img.setAttribute("src","https://www.sportico.com/wp-content/uploads/2020/09/0911_IMG.jpg")
+
+// let a = document.querySelector("a")
+// console.log(a.getAttribute("href"))
+
+
+// let data = document.querySelector("div")
+// data.setAttribute("data-user","mahi me kon")
+// console.log(data)
+
+// let a = document.getElementById("mylink")
+// a.removeAttribute("href")
+// console.log(a)
+
+
+// let h1 = document.createElement("h1")
+// h1.textContent = "hello isha kahe ho"
+
+// document.querySelector("body").prepend(h1)
