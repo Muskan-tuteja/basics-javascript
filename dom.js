@@ -44,3 +44,29 @@
 // h1.textContent = "hello isha kahe ho"
 
 // document.querySelector("body").prepend(h1)
+
+
+// append child............
+
+// parent element
+// const container = document.getElementById("container")
+
+// // naya element crete karna h
+
+// const nerAppend = document.createElement("h2")
+// nerAppend.textContent = "this is new append"
+
+// // naya element ko container mein add karna hai 
+
+// container.appendChild(nerAppend)
+
+
+// prepend
+
+const container = document.getElementsByClassName("container")[0]
+
+
+const newPre = document.createElement("p")
+newPre.textContent = "hello and not" 
+
+container.prepend(newPre)
