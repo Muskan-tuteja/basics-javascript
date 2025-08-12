@@ -26,6 +26,9 @@ let count = 0;
     resultDisplay.textContent = "Result: " + diff;
   });
 
+
+  // placeholder input    .......
+  
   let input = document.getElementById("name")
   input.addEventListener("input", function () {
     this.value = this.value.toUpperCase();
