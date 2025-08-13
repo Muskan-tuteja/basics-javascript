@@ -1,23 +1,68 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html,body{
+html,
+body {
   width: 100%;
   height: 100%;
-  /* background-color: blue; */
 }
-#main{
-  padding: 30px;
-  /* display: block; */
+ /* div {
   align-items: center;
   justify-content: center;
- width: 100%;
- height: 100%;
+  padding: 12px 22px;
+  position: relative;
+  overflow: hidden;
+} */
+#main {
+
+  width: 100%;
+  height: 100%;
  
+} 
+
+#nav {
+   display: flex;
+ align-items: center;
+ justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  background-color: #444;
 }
-.card{
+
+a{
+  color: white;
+}
+
+button{
+  padding: 12px 22px;
+  background-color: blue;
+  border-radius: 5px;
+  border: none;
+ color: white;
+}
+ul{
+ align-items: center;
+ justify-items: center;
+ padding: 20px 50px;
+ border-radius: 20px solid black;
+ user-select: none;
+ 
+ 
+
+}
+li{
+  font-weight: bold;
+  cursor: pointer;
+
+  
+
+}
+.lt{
+  text-decoration: line-through;
+}
+/* .card{
   max-width: 300px;
   margin-top: 40px;
   border-radius: 10px;
@@ -29,7 +74,7 @@ html,body{
   width: 50px;
   height: 50px;
   /* background-color: red; */
-  border-radius: 50;
+/* border-radius: 50;
   margin-bottom: 7px;
   overflow: hidden;
 }
@@ -42,8 +87,8 @@ html,body{
   font-size: 2rem;
 }
 .card p {
-  color: blue;
-}
+  color: blue; */
+/* } */
 /* input{
   display: none;
 } */
