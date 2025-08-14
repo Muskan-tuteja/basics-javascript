@@ -263,45 +263,50 @@
 //   span.style.color ="white"
 //  }
 // })
-fetch("https://dummyjson.com/recipes")
-  .then((response) => response.json())
-  .then((data) => {
-    let container = document.createElement("div");
-    container.style.display = "flex";
-    container.style.flexWrap = "wrap";
-    document.body.appendChild(container);
+// fetch("https://dummyjson.com/recipes")
+//   .then((response) => response.json())
+//   .then((data) => {
+//     let container = document.createElement("div");
+//     container.style.display = "flex";
+//     container.style.flexWrap = "wrap";
+//     document.body.appendChild(container);
 
-    data.recipes.forEach((recipe) => {
-      // card div
-      let card = document.createElement("div");
-      card.style.border = "1px solid #ccc";
-      card.style.padding = "10px";
-      card.style.margin = "10px";
-      card.style.width = "200px";
-      card.style.textAlign = "center";
-      card.style.borderRadius = "8px";
-      card.style.boxShadow = "0 2px 5px rgba(0,0,0,0.1)";
+//     data.recipes.forEach((recipe) => {
+ 
+//       let card = document.createElement("div");
+//       card.style.border = "1px solid #ccc";
+//       card.style.padding = "10px";
+//       card.style.margin = "10px";
+//       card.style.width = "200px";
+//       card.style.textAlign = "center";
+//       card.style.borderRadius = "8px";
+//       card.style.boxShadow = "0 2px 5px rgba(0,0,0,0.1)";
 
-      // image
-      let img = document.createElement("img");
-      img.src = recipe.image;
-      img.alt = recipe.name;
-      img.style.width = "100%";
-      img.style.borderRadius = "8px";
+    
+//       let img = document.createElement("img");
+//       img.src = recipe.image;
+//       img.alt = recipe.name;
+//       img.style.width = "100%";
+//       img.style.borderRadius = "8px";
 
-      // name
-      let title = document.createElement("h3");
-      title.textContent = recipe.name;
-      title.style.fontSize = "16px";
+//       // name
+//       let title = document.createElement("h3");
+//       title.textContent = recipe.name;
+//       title.style.fontSize = "16px";
 
-      // add to card
-      card.appendChild(img);
-      card.appendChild(title);
+//       // add to card
+//       card.appendChild(img);
+//       card.appendChild(title);
 
-      // add card to container
-      container.appendChild(card);
-    });
-  })
-  .catch((error) => console.error(error));
+//       // add card to container
+//       container.appendChild(card);
+//     });
+//   })
+//   .catch((error) => console.error(error));
+
+
+
+
+
 
 
