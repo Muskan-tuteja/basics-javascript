@@ -67,10 +67,10 @@
 // });
 
 let form = document.querySelector("#for");
-let nam = document.querySelector("#nam");
-let password = document.querySelector("#pass");
-let phnnumber = document.querySelector("#phn");
-let email = document.querySelector("#emi");
+let nam = document.querySelector("#namm");
+let password = document.querySelector("#passs");
+let phnnumber = document.querySelector("#phnn");
+let email = document.querySelector("#emii");
 
 document.querySelector("#nameError").textContent = "";
 document.querySelector("#emailError").textContent = "";
@@ -81,13 +81,13 @@ form.addEventListener("submit", function (evt) {
   evt.preventDefault();
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const passwordRegex = /^(?=.*[0-9])(?=.*[!@#$%^&*]).{6,}$/;
-  const nameReges = !/^[A-Za-z]{3,}$/;
-  const phnReges = !/^\d{10}$/;
+  const nameRegex = /^[A-Za-z]{3,}$/;
+  const phnRegex = /^\d{10}$/;
 
-  let emailans = emailRegex.text(email.value);
+  let emailans = emailRegex.test(email.value);
   let passwordans = passwordRegex.test(password.value);
-  let nameans = nameReges.test(nam.value);
-  let phnnumberans = phnReges.test(phnnumber.value);
+  let nameans = nameRegex.test(nam.value);
+  let phnnumberans = phnRegex.test(phnnumber.value);
   let isValid = true;
 
   // Name Regex (Only letters, min 3 chars)
@@ -107,6 +107,7 @@ form.addEventListener("submit", function (evt) {
   if (!passwordans) {
     document.querySelector("#passError").textContent =
       "Password must be 6+ chars with letters & numbers.";
+       document.querySelector("#passError").style.display = "initial";
     isValid = false;
   }
 
@@ -115,6 +116,8 @@ form.addEventListener("submit", function (evt) {
   if (!phnnumberans) {
     document.querySelector("#phoneError").textContent =
       "Phone must be exactly 10 digits.";
+       document.querySelector("#phoneError").style.display = "initial";
+      
     isValid = false;
   }
 

@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.glass-card h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    transition: width 0.3s ease;
+}
+
+.percent {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+#alertBox{
+      background: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: fit-content;
+    font-family: sans-serif
+
+}

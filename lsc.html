@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalStorage| Session Storage | Cookie</title>
+  <link rel="stylesheet" href="lsc.css">
+</head>
+<body class="dark">
+  <!-- <h2 id="welcome"></h2>
+
+    <div id="loginForm">
+        <input type="text" id="username" placeholder="Enter your name">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <button onclick="logout()" style="display:none;" id="logoutBtn">Logout</button>
+
+    <script>
+        // Function to set cookie
+        function setCookie(name, value, days) {
+            let date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            let expires = "expires=" + date.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+
+        // Function to get cookie value
+        function getCookie(name) {
+            let decodedCookie = decodeURIComponent(document.cookie);
+            let cookies = decodedCookie.split(';');
+            name = name + "=";
+            for(let c of cookies) {
+                while (c.charAt(0) == ' ') c = c.substring(1);
+                if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+            }
+            return "";
+        }
+
+        // Login function
+        function login() {
+            let user = document.getElementById("username").value;
+            if(user) {
+                setCookie("username", user, 7); // 7 days valid
+                showWelcome();
+            }
+        }
+
+        // Show welcome message if cookie exists
+        function showWelcome() {
+            let user = getCookie("username");
+            if(user) {
+                document.getElementById("welcome").innerText = "Welcome, " + user + "!";
+                document.getElementById("loginForm").style.display = "none";
+                document.getElementById("logoutBtn").style.display = "block";
+            }
+        }
+
+        // Logout function (delete cookie)
+        function logout() {
+            setCookie("username", "", -1); // expired
+            location.reload();
+        }
+
+        // Check cookie on page load
+        window.onload = showWelcome;
+    </script> -->
+   
+    <!-- <h1>Hello Muskan</h1>
+<button id="themeBtn">Toggle Theme</button> -->
+
+<p id="myPara" class="">Hello</p>
+
+
+  <script src="lsc.js"></script>
+  
+</body>
+</html>
