@@ -1,0 +1,77 @@
+/* General body setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+/* Input (search bar) */
+.inp {
+  width: 350px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  background: #1b1b1b;
+  border: 1px solid #333;
+  color: #ddd;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.inp:focus {
+  border-color: #00c6ff;
+  box-shadow: 0 0 10px rgba(0, 198, 255, 0.4);
+  color: #fff;
+}
+
+/* Cards container */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Each card */
+.card {
+  width: 250px;
+  background: #1e1e1e;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0, 198, 255, 0.4);
+}
+
+/* Card image */
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Card title */
+.card h3 {
+  font-size: 18px;
+  margin: 10px 0 6px;
+  color: #fff;
+}
+
+/* Card description */
+.card p {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.5;
+}
