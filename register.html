@@ -13,33 +13,33 @@
   <body>
     <form class="container">
       <h1 class="reg">Register Form</h1>
-    <div class="name">
+      <div class="name">
         <i class="fa-solid fa-user"></i>
         <input type="text" placeholder="Name" />
       </div>
       <!-- email -->
 
-      <div class="email">
+   <div class="otp-box">
         <i class="fa-solid fa-envelope"></i>
         <input type="email" placeholder="Email" required />
-        <button class="otp" >Send OTP</button>
-        <p>Sucessfully OTP!!</p>
+        <button class="otp" type="button">Send OTP</button>
+         <p class="otp-msg">OTP Sent Successfully!</p>
       </div>
-<!-- phone -->
-      <div class="phone">
+      <!-- phone -->
+      <div class="otp-box">
         <i class="fa-solid fa-phone"></i>
-        <input type="phn" placeholder="Phone" required />
-        <button class="otp" >Send OTP</button>
-        <p>Sucessfully OTP!!</p>
-       
+        <input type="tel" placeholder="Phone" required />
+        <button class="otp" type="button">Send OTP</button>
+        <p class="otp-msg">OTP Sent Successfully!</p>
+
       </div>
-<!-- password -->
+      <!-- password -->
       <div class="password">
         <input type="password" placeholder="Password" />
       </div>
 
-      <button class="re" >Register</button>
-      <p>Sucessfully Register Form</p>
+      <button class="re" type="submit">Register</button>
+     
     </form>
 
     <script src="register.js"></script>

@@ -1,35 +1,31 @@
 let form = document.querySelector(".container");
-let email = document.querySelector(".email");
-let phn = document.querySelector(".phone");
 
-// OTP send function (without alert)
+
 function send(button) {
   const parentDiv = button.parentElement;
-  const msg = parentDiv.querySelector("p");
+  const msg = parentDiv.querySelector(".otp-msg");
 
-  // Message show only in <p>, no alert
+  // Button hide
+  button.style.opacity = "0";
+  
+
+  // Message show
   msg.style.opacity = "1";
-  msg.textContent = `OTP Sent Successfully!`;
+   
 
-  // Button disable temporarily
-  button.disabled = true;
-  button.style.background = "#aaa";
-
+  // 3 sec baad wapas button show
   setTimeout(() => {
-    button.disabled = false;
-    button.style.background = "#6a11cb";
     msg.style.opacity = "0";
+    button.style.opacity = "1";
   }, 3000);
 }
 
-// OTP button click
 document.querySelectorAll(".otp").forEach((btn) => {
   btn.addEventListener("click", function () {
-    send(this); // this = jis button pe click hua
+    send(this);
   });
 });
 
-// Register submit event
 form.addEventListener("submit", function (evt) {
   evt.preventDefault();
   alert("Successfully Registered!");
