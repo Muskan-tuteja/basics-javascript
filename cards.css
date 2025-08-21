@@ -1,0 +1,123 @@
+/* Reset basic style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* Background */
+body {
+  background: #f9f9f9;
+
+}
+
+/* Navbar */
+.navbar {
+  height: 70px;
+  background: #978181;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;       /* navbar ko fix kar diya */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;         /* upar rahe sabse */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar ul li {
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar ul li:hover {
+  color: #ff9800;
+}
+
+/* Search box inside navbar */
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 200px;
+}
+
+.search-box button {
+  padding: 8px 15px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 20px;
+  background: #ff9800;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: #e68900;
+}
+
+
+/* Student cards grid */
+
+.Students {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 30px;
+  justify-items: center;
+}
+
+
+.Student {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 260px;
+}
+
+.Student img {
+  
+  height: 220px;
+  width: 220px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  
+}
+
+.Student h1 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.Student p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Hover effect */
+.Student:hover {
+ 
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
