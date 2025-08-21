@@ -1,0 +1,32 @@
+.parent {
+  padding: 15px;
+  width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toaster-pop {
+  text-align: center;
+  background: tomato;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* themes */
+.dark {
+  background: #333;
+}
+
+.blue {
+  background: royalblue;
+}
+
+/* animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

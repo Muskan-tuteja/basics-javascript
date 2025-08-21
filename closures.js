@@ -50,3 +50,38 @@
 // func()
 // func()
 // func()
+
+
+
+// closures project
+
+function createToaster(config){
+  return function(str){
+    let div = document.createElement("div")
+    div.textContent = str;
+   div.className = `toaster-pop ${config.theme}`;
+
+    document.querySelector(".parent").appendChild(div)
+    setTimeout(()=>{
+      document.querySelector(".parent").removeChild(div)
+
+    },config.duration*1000)
+
+  }
+
+}
+let toaster = createToaster({
+  positionX: "right",
+  positionY: "top",
+  theme : "dark" ,
+  duration : 3,
+  
+})
+// kuch chalo to ue chal jye
+toaster("Download Done")
+setTimeout(()=>{
+  toaster("muskan hello!")
+},2000)
+setTimeout(()=>{
+  toaster("suceesfull done")
+},1500)
