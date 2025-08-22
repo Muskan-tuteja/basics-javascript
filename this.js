@@ -84,13 +84,16 @@
 
 
 // bind 
-let person = {
-  names : "Muskan",
-  age : 23
-}
-function abcd(a,b,c){
-  console.log(this,a,b,c)
-}
-let newFunc = abcd.bind(person, 1,2,3)
-newFunc()
+// let person = {
+//   names : "Muskan",
+//   age : 23
+// }
+// function abcd(a,b,c){
+//   console.log(this,a,b,c)
+// }
+// let newFunc = abcd.bind(person, 1,2,3)
+// newFunc()
+
+
+
 
