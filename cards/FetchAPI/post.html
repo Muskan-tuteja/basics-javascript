@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>POST API Demo</title>
+  <link rel="stylesheet" href="post.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>POST API — Create Post</h1>
+
+    <form id="postForm">
+      <div class="field">
+        <label>Title</label>
+        <input type="text" id="title" placeholder="Enter title" required />
+      </div>
+
+      <div class="field">
+        <label>Body</label>
+        <textarea id="body" rows="4" placeholder="Write something..." required></textarea>
+      </div>
+
+      <div class="field">
+        <label>User ID</label>
+        <input type="number" id="userId" placeholder="e.g. 101" required />
+      </div>
+
+      <button id="submitBtn" type="submit">Submit</button>
+      <span id="loading" class="loading" hidden>Sending...</span>
+    </form>
+
+    <div id="result" class="result" hidden>
+      <h2>Response</h2>
+      <p><strong>Status:</strong> <span id="status"></span></p>
+      <pre id="json"></pre>
+    </div>
+  </div>
+
+  <script src="post.js"></script>
+</body>
+</html>

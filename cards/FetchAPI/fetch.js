@@ -56,31 +56,38 @@
 //       });
 //     })
 //     .catch(err => console.log("Error:", err));
-function loadProducts() {
-  fetch("https://dummyjson.com/recipes")
-    .then((res) => res.json())
-    .then((data) => {
-      //       // .then(data => console.log(data))
-      let container = document.getElementById("products");
-      container.innerHTML = "";
+// }
 
-      data.recipes.forEach((recipe) => {
-        let card = document.createElement("div");
-        card.className = "card";
-        card.innerHTML = `
-          <img src="${recipe.image}" alt="${recipe.name}">
-          <h3>${recipe.name}</h3>
-          <p>Rating: ⭐ ${recipe.rating}</p>
-          <p>Prep Time: ${recipe.prepTimeMinutes} mins</p>
-          <p>Cook Time: ${recipe.cookTimeMinutes} mins</p>
+// food recipes....................................
+// function loadProducts() {
+//   fetch("https://dummyjson.com/recipes")
+//     .then((res) => res.json())
+//     .then((data) => {
+//       //       // .then(data => console.log(data))
+//       let container = document.getElementById("products");
+//       container.innerHTML = "";
+
+//       data.recipes.forEach((recipe) => {
+//         let card = document.createElement("div");
+//         card.className = "card";
+//         card.innerHTML = `
+//           <img src="${recipe.image}" alt="${recipe.name}">
+//           <h3>${recipe.name}</h3>
+//           <p>Rating: ⭐ ${recipe.rating}</p>
+//           <p>Prep Time: ${recipe.prepTimeMinutes} mins</p>
+//           <p>Cook Time: ${recipe.cookTimeMinutes} mins</p>
          
-        `;
-        container.appendChild(card);
-      });
-    })
+//         `;
+//         container.appendChild(card);
+//       });
+//     })
 
-    .catch((err) => console.log("Error:", err));
-}
+//     .catch((err) => console.log("Error:", err));
+// }
+
+
+
+
 // function loadUsers() {
 //   fetch("https://dummyjson.com/users")
 //     .then((res) => res.json())
@@ -105,3 +112,13 @@ function loadProducts() {
 
 //   }
 //   loadUsers();
+
+
+// let jsonString = '{"name": "Muskan", "age": 22}';
+
+// let obj = JSON.parse(jsonString);
+// console.log(obj)
+
+// console.log(obj.name); // Muskan
+// console.log(obj.age);  // 22
+
