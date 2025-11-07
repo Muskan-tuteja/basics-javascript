@@ -42,9 +42,26 @@
 // console.log(max); // Output: 10
 
 
-const student = [1,3,2,4]
+// const student = [1,3,2,4]
 
-const data = student.map(num => num *2)
-console.log(data)
-console.log(student)
+// const data = student.map(num => num *2)
+// console.log(data)
+// console.log(student)
 
+// console.log(abc)
+// var abc=10
+// let abc=10
+// console.log(abc)
+
+// const abc = {
+//   name:"muskan",
+//   age: 22,
+//   address:"india"
+// };
+
+// let xyz = {
+//   ...abc, name:"mahi", age:23
+
+// };
+// const {name,age, ...ppr} = abc
+// console.log(ppr,xyz)
