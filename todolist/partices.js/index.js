@@ -78,15 +78,52 @@
 // }
 // exam();
 
-function demo (){
-  if(true){
-    var a =10
-    let b =30
-    const c = 45
-     console.log(b)
-  console.log(c)
+// function demo (){
+//   if(true){
+//     var a =10
+//     let b =30
+//     const c = 45
+//      console.log(b)
+//   console.log(c)
+//   }
+//   console.log(a)
+
+// }
+// demo()
+
+// global scope
+// const abc = 10
+// function showabs(){
+//   console.log(abc)
+// }
+// showabs()
+//  console.log(abc)
+
+// function abc(){
+//   var a = 3
+//   console.log(a)
+// }
+// abc()
+// function abc(){
+//   let a = 3
+//   console.log(a)
+// }
+// abc()
+// function abc(){
+//   const a = 3
+//   console.log(a)
+// }
+// abc()
+
+function abc() {
+  if (true) {
+    var a = 2;
+    let b = 4;
+    const c = 5;
+    console.log(b);
+    console.log(c);
+    console.log(a);
   }
-  console.log(a)
- 
 }
-demo()
+
+abc();
