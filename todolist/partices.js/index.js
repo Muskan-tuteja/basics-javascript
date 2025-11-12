@@ -115,15 +115,69 @@
 // }
 // abc()
 
-function abc() {
-  if (true) {
-    var a = 2;
-    let b = 4;
-    const c = 5;
-    console.log(b);
-    console.log(c);
-    console.log(a);
-  }
-}
+// function abc() {
+//   if (true) {
+//     var a = 2;
+//     let b = 4;
+//     const c = 5;
+//     console.log(b);
+//     console.log(c);
+//     console.log(a);
+//   }
+// }
 
-abc();
+// abc();
+
+// data typed string
+// function ABS(){
+//   let ebc = "muskan"
+
+// }
+// console.log(ebc)
+// ABS()
+
+// let abc
+// console.log(abc)
+// console.log(typeof abc)
+
+// null
+// let abc = null
+// console.log(abc)
+// console.log(typeof abc)
+
+// console.log(null==undefined)
+
+// let obj = {
+//   name: "muskan",
+//   age: 67,
+//   study: {
+//     course: 1,
+//   },
+// };
+// console.log(obj);
+// console.log(typeof obj);
+
+// let arr = [1,2,3,4]
+// console.log(typeof arr)
+
+// function msg(){
+//   console.log("muskan")
+// }
+// msg()
+// console.log(typeof msg)
+// console.log(typeof msg())
+
+//  abs=10;
+// console.log(abs)
+// console.log(typeof abs)
+
+// abc = 100>200
+// console.log(abc)
+// console.log(typeof abc)
+
+// var abc
+// console.log(abc)
+// console.log(typeof abc)
+
+// let abc = 2
+// console.log(abc)
