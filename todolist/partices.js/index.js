@@ -279,3 +279,28 @@
 //     console.log("note a color", color);
 //     break;
 // }
+//  let age = 18
+//  let result = (age>=18)? "you can vote" : "you cannot vote"
+//  console.log(result)
+
+// let marks = 55
+// let grade = (marks >=104)?"a":(marks >=203)?"b":(marks >=485)?"c":"null"
+// console.log(grade)
+
+// let num = 30
+// let marks = (num>80)?"muskan":(num>200)?"mah":null
+// console.log(marks)
+
+// for (let i=1; i<=5; i++){
+//   console.log("hello")
+// }
+
+let i =10
+for (let i=1; i<=5; i++){
+  console.log(i)
+}
+
+
+
+
+
