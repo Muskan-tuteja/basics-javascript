@@ -181,3 +181,101 @@
 
 // let abc = 2
 // console.log(abc)
+
+// let num = "3" +5+3
+// console.log(num)
+// let i =3
+// console.log(++i)
+// console.log(i++)
+// console.log(++i)
+
+// let age = 12
+// if (age>19) {
+//   console.log("you are an aadult")
+
+// }
+// let country = "india"
+// let a =34
+// if (a<=34 && country == "india") {
+//   console.log("a"?"true":"flase")
+
+// }
+
+// if else
+//  let age =10
+// if (age>12) {
+//   console.log("this is true")
+
+// }else{
+//   console.log("this is true 1")
+// }
+
+// else if
+
+// let marks = "";
+// if (marks > 90) {
+//   console.log("process");
+// } else if (marks >= 10) {
+//   console.log("loading");
+// } else {
+//   console.log("failed");
+// }
+
+// let dayName = 3
+// switch (dayName) {
+//   case 1:
+//     dayName = "sunday"
+
+//     break;
+//   case 2:
+//     dayName = "monady"
+
+//     break;
+//   case 3:
+//     dayName = "tuesday"
+
+//     break;
+
+//   default:
+//     console.log("day is not valid")
+//     break;
+// }
+// console.log("This day is:" + dayName)
+
+// let fruit = "applew";
+// switch (fruit) {
+//   case "apple":
+//     console.log("apple is red");
+
+//     break;
+//   case "bnna":
+//     console.log("bnner is red");
+
+//     break;
+//   case "orange":
+//     console.log("orgne is red");
+
+//     break;
+//   case "kela":
+//     console.log("kela is red");
+
+//     break;
+
+//   default:
+//     console.log("not a fruit");
+//     break;
+// }
+
+// let color = "pinki";
+// switch (color) {
+//   case "red":
+//   case "black":
+//   case "pinki":
+//     console.log("pinki is red");
+
+//     break;
+
+//   default:
+//     console.log("note a color", color);
+//     break;
+// }
