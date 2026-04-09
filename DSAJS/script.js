@@ -14,7 +14,7 @@
 
 // let a = 20
 // let b =10
-// let c 
+// let c
 // console.log(c=a);
 // console.log(a=b);
 // console.log(b=c);
@@ -25,7 +25,7 @@
 // console.log(a,b);
 
 // let a = 12
-// let b =22 
+// let b =22
 // console.log(Math.floor (a/b));
 
 // let a = 7
@@ -34,8 +34,49 @@
 
 // console.log(a==a);
 
+// process.stdout.write("hello")
+// process.stdout.write("world")
 
+// let a = prompt("enter you number")
+// console.log(a)
 
+// let prompt = require('prompt-sync')()
+// let a = prompt("Enter you number : ")
+
+// process.stdout.write(a)
+
+// console.log("*");
+// console.log("*");
+// console.log("*");
+// console.log("*");
+// console.log("*");
+
+//  process.stdout.write("*")
+//  process.stdout.write("*")
+//  process.stdout.write("*")
+//  process.stdout.write("*")
+//  process.stdout.write("*")
+
+// let prompt = require('prompt-sync')()
+// let n = prompt("Enter a number")
+// for(let i=1; i<=n;i++){
+//   process.stdout.write("* ")
+// }
+
+// let prompt = require("prompt-sync")();
+
+// let n = prompt("Enter a number: ");
+// let n =5
+
+// for (let i = 1; i <= n; i++) {
+  
+// for (let j = 2; j <= n; j++) {
+  
+
+//   process.stdout.write("* ");
+// }
+// console.log()
+// }
 
 
 
