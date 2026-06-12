@@ -107,6 +107,63 @@
 
 
 
+// map
+
+// const number = [1,2,3,4]
+// const result = number.map(num=> num*5)
+// console.log(result);
+
+
+// const number = [2,3,5,6]
+// const result = number.map(num => num*2)
+// console.log(result);
+
+
+
+// const number = [1,2,3,4,5]
+// const result = number.filter(num => num >3)
+// console.log(result);
+
+// const number = [1,2,3,4]
+// const result = number.reduce((total,num)=>{
+//   return total+ num
+// },0)
+// console.log(result);
+
+
+// function outer(){
+//   let count = 0
+
+//   return function inner(){
+//     count++
+//     console.log(count);
+    
+//   }
+// }
+// const counter = outer()
+// counter()
+// counter()
+// counter()
+
+
+
+// const numbers = [1,2,3,4]
+// const result = numbers.map(num => num *2)
+
+// console.log(result);
+
+
+// const number = [1,2,3,5]
+// const result = number.reduce((total,num)=>{
+//   return total+num
+// })
+// console.log(result);
+
+
+// const number = [1,2,3,4,5]
+// const result = number.filter(num => num>3)
+// console.log(result);
+
 
 
 
