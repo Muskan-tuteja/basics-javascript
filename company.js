@@ -62,7 +62,48 @@
 
 
 
+// const promi = new Promise((res, rej)=>{
+//   let success = false;
 
+//   if(success){
+//     res("data is sucess")
+//   }else{
+//     rej("data is wqnt wrong")
+//   }
+// })
+
+// promi
+// .then((result)=>{
+//   console.log(result);
+  
+// })
+// .catch((error)=>{
+//   console.log(error);
+  
+// })
+
+
+
+// const promi = new Promise((res,rej)=>{
+//   let sucess = true
+
+//   if(sucess){
+//     res("data is sucessfully")
+//   }else{
+//     rej("data is went worng")
+//   }
+// })
+// promi
+// .then((result)=>{
+//   console.log(result);
+//  })
+//   .catch((error)=>{
+//     console.log(error);
+    
+
+ 
+  
+// })
 
 
 
