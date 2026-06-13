@@ -205,3 +205,55 @@
   
 // })
 
+
+
+// function outer(){
+//   let count= 0
+
+//   return function inner(){
+//     count++
+//     console.log(count);
+    
+//   }
+// }
+// const counter = outer()
+// counter()
+// counter()
+// counter()
+
+
+// const number = [1,2,3,4]
+// const result = number.map(num => num*2)
+// console.log(result);
+
+
+// const number = [2,3,9,10]
+// const result = number.filter(num => num >3)
+// console.log(result);
+
+
+
+// const number= [1,2,3,4]
+// const result = number.reduce((total,num)=>{
+//   return total + num
+// },0)
+// console.log(result);
+
+const promise = new Promise((res,rej)=>{
+  let suceess = true
+
+  if(suceess){
+    res("data is apply")
+  }else{
+    rej("data is woeng")
+  }
+})
+promise
+.then((result)=>{
+  console.log(result);
+  
+})
+.catch((error)=>{
+  console.log(error);
+  
+})
